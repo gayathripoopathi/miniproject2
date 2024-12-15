@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Page</title>
+    <style>
+        body {
+            background-image: url(bg9.jpeg);
+           background-size: cover;
+            background-repeat: no-repeat;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 200vh;
+        }
+    .profile-card {
+            margin-top:1px;
+            height: 500px;
+            background-color:white;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            padding: 20px;
+            padding-top:20px;
+            padding-bottom: 130px;
+            max-width: 350px;
+            width: 100%;
+        }
+
+        .profile-card img {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            margin-bottom: 15px;
+            border: 3px solid #6c63ff;
+        }
+
+        .profile-card h1 {
+            color:white;
+            font-size: 24px;
+            margin-bottom: 10px;
+            background-color: #6c63ff;
+           border-width: 2px;
+           border-color: #6c63ff;
+           border-radius:5px;
+         border-style: solid;
+        }
+
+        .profile-card p {
+            font-size: 14px;
+            color: #777;
+            margin-bottom: 20px;
+        }
+
+        .profile-card .social-links {
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+        }
+
+        .profile-card .social-links a {
+            text-decoration: none;
+            color: #fff;
+            background-color: #6c63ff;
+            padding: 10px 15px;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+
+        .profile-card .social-links a:hover {
+            background-color: #b412bd;
+        }
+        .profile-card label,input,select{
+            margin:9px;
+        }
+        .profile-card textarea{
+            margin-top: 8px;
+            margin-left: 6px;
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="profile-card">
+        <form>
+        <h1>BUYER PROFILE</h1>
+        <img src="https://via.placeholder.com/100" alt="Profile Picture">
+        <br>
+       <label>Name :</label> <input type="text" placeholder="enter you name"><br>
+       <label>phn no :</label><input type="number" placeholder="enter your number"> <br>
+       <label>Email :</label><input type="email" placeholder="enter your Email"> <br>
+       <label>Location :</label><textarea name="location"></textarea><br><br>
+        <p>follow:instagram|whatsapp|facebook</p>
+        <div class="social-links">
+            <a href="#" target="_blank">Instagram</a>
+            <a href="#" target="_blank">Whatsapp</a>
+            <a href="#" target="_blank">Facebook</a>
+        </div><br>
+        <button>Save</button>        <button>next page-></button>
+    </form>
+    </div>
+</body>
+</html>
